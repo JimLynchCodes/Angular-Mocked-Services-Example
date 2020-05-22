@@ -4,12 +4,12 @@
 
 Clone this repo.
 
-Switch tonode v13.13.0
+Switch to node v13.13.0
 ```
 nvm use
 ```
 
-Intall dependencies:
+Install dependencies:
 ```
 npm i
 ```
