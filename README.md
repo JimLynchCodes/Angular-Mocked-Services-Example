@@ -4,7 +4,7 @@ Example of Mocking Different Services
 ## Notable Files
 
 
-## Source Files:
+### Source Files
 [FooService](https://github.com/JimLynchCodes/Angular-Mocked-Services-Example/blob/master/angular-mocked-services-example/src/services/foo.service.ts) - a service with a function "foo" that returns a value. 
 
 [FoobservableService](https://github.com/JimLynchCodes/Angular-Mocked-Services-Example/blob/master/angular-mocked-services-example/src/services/foobservable.service.ts) - a service with a function "foobservable" that returns an observable object which produces a string in three character chunks.
