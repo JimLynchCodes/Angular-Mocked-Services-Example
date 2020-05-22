@@ -1,5 +1,23 @@
 # Angular Mocked Services Example(s)
 
+## Usage 
+
+Clone this repo.
+
+Switch tonode v13.13.0
+```
+nvm use
+```
+
+Intall dependencies:
+```
+npm i
+```
+
+Run Test in "TDD Mode"
+```
+npm test
+```
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.

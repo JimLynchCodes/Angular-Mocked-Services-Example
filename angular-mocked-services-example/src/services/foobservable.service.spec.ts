@@ -22,10 +22,18 @@ describe('FoobservableService', () => {
 
     })
 
-    it('should return chunks of 3 characters', () => {
-      service.foobservable().subscribe( chunk => {
-        expect(chunk.length).toBe(3);
+    it('should return "foo", "bar", and "baz""', () => {
+
+      let chunks = []
+
+      service.foobservable().subscribe(chunk => {
+
+
+        chunks.push(chunk)
+
       })
+
+      expect(chunks.join('')).toBe("foobarbaz")
     })
 
 

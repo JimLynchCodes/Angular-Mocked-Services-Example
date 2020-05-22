@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { FoobservableService } from 'src/services/foobservable.service';
 
 @Component({
@@ -11,21 +10,19 @@ export class FoobservableCompComponent implements OnInit {
 
   combinedData = ''
 
-  constructor(foobservableService: FoobservableService) { 
+  constructor(foobservableService: FoobservableService) {
 
-    foobservableService.foobservable().subscribe( (chunk: any) => {
+    foobservableService.foobservable().subscribe((chunk: any) => {
 
       console.log('chunk is: ', chunk)
 
       this.combinedData += chunk;
-  })
+    })
 
   }
 
   ngOnInit(): void {
-    
+
   }
-
-
 
 }
